@@ -14,7 +14,7 @@ import MessageSnackbar from '../components/Message';
 export default function Page(): JSX.Element {
   return (
     <StoreProvider>
-      <SnackbarProvider
+      <SnackbarProvider>
         preventDuplicate
         maxSnack={10}
         Components={{message: MessageSnackbar}}>
